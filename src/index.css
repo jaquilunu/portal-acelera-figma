@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --font-sans: "Lexend", system-ui, -apple-system, sans-serif;
+  --font-lexend: "Lexend", system-ui, -apple-system, sans-serif;
+
+  --color-acelera-burgundy: #511B35;
+  --color-acelera-wine: #7A1845;
+  --color-acelera-magenta: #B84469;
+  --color-acelera-berry: #8B3A5A;
+  --color-acelera-rose: #E8A0B8;
+  --color-acelera-pink-soft: #F5C6D8;
+  --color-acelera-blush: #F7EEF2;
+  --color-acelera-blush-light: #FAF2F5;
+  --color-acelera-blush-pale: #F5E9EF;
+  --color-acelera-impact-bg: #FDF4F7;
+  --color-acelera-bagagem-bg: #F9F4F6;
+  --color-acelera-footer-bg: #FAF8F9;
+  --color-acelera-teal: #2A7A5F;
+  --color-acelera-teal-dark: #1B5E5A;
+  --color-acelera-teal-light: #7ECDC8;
+  --color-acelera-teal-pale: #B2DFDC;
+  --color-acelera-mint-bg: #E8F5F0;
+  --color-acelera-charcoal: #322D30;
+  --color-acelera-hero-body: #3A2530;
+  --color-acelera-muted: #62595E;
+  --color-acelera-caption: #9C8A91;
+  --color-acelera-copyright: #9E8C94;
+  --color-acelera-border: #E4D9DE;
+  --color-acelera-border-pink: #E8C8D5;
+  --color-acelera-border-card: #E3D9DE;
+}
+
+@layer base {
+  html {
+    font-family: "Lexend", system-ui, -apple-system, sans-serif;
+    color: #322D30;
+    background-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
